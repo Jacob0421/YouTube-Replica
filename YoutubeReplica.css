@@ -15,7 +15,8 @@ body {
 
 .navbar {
     background: var(--menu_main);
-    height: 5vh;
+    height: 8vh;
+    padding-top: 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,19 +47,19 @@ body {
     color: white;
     font-size: 17;
     border: 0;
-    height: 60%;
+    height: 5vh;
     padding: 0;
     Margin: 0;
     width: 80%;
+    padding: 2px 6px;
 }
     .navbar .search-bar #search-button {
         font-size: 17;
         background: var(--search_secondary);
         color: White;
-        height: 3vh;
-        width: 3vh;
+        height: 5vh;
+        width: 3vw;
         border: 0;
-        height: 60%;
     }
     .navbar .search-bar #voice-button{
         font-size: 17;
@@ -67,8 +68,8 @@ body {
         color: white;
         border: 0;
         border-radius: 50%;
-        height: 3vh;
-        width: 3vh;
+        height: 5vh;
+        width: 5vh;
     }
 
 .HamburgerContainer {
@@ -76,10 +77,10 @@ body {
     padding-left: 1vw;
 }
     .HLine1, .HLine2, .HLine3 {
-        width: 35px;
-        height: 5px;
+        width: 17px;
+        height: 1px;
         background-color: white;
-        margin: 6px 0;
+        margin: 5px 0;
         transition: 3s; 
     }
 
@@ -139,6 +140,6 @@ body {
     }
 
 .navbar .main-logo {
-    height: 3vh;
-    padding-left: 3vw;
+    height: 5vh;
+    padding-left: 1.5vw;
 }
